@@ -62,6 +62,9 @@ header .coluna ul{
 header .coluna ul li{
     margin: 0 0 12px;
 }
+header .coluna ul li:last-child {
+    margin: 0;
+}
 header .coluna ul li a{
     font-size: 1rem;
     color: var(--text-color-secundary);
@@ -257,7 +260,7 @@ label span {
         left: -2px;
         animation-name: aumentarLargura, aumentarAltura;
         animation-duration: 1s, 1s;
-        animation-delay: 2s, 3s;
+        animation-delay: 0.5s, 1.5s;
         animation-fill-mode: forwards;
         border-top-color: #e4b4ec;
         border-right-color: #e4b4ec;
@@ -267,7 +270,7 @@ label span {
         right: -2px;
         animation-name: aumentarLargura, aumentarAltura;
         animation-duration: 1s, 1s;
-        animation-delay: 4s, 5s;
+        animation-delay: 0.5s, 1.5s;
         animation-fill-mode: forwards;
         border-bottom-color: #e4b4ec;
         border-left-color: #e4b4ec;
