@@ -12,7 +12,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
 }
 
 :root{
-    --background-color-primary: #b965fd;
+    --background-color-primary: #059494;
     --background-color-secundary: black;
     --background-color-dark: #0e0e0e;
     --text-color-primary: #636363;
@@ -109,7 +109,7 @@ main .coluna{
     padding: 20px;
 }
 main .coluna section{
-    border-bottom: 1px solid #e4b4ec;
+    border-bottom: 1px solid #72c9c9;
     margin: 0 0 20px;
     min-height: 216px;
     color: var(--text-color-secundary);
